@@ -10,6 +10,6 @@
 #define BridgingHeader_h
 
 
-#import "zoiperVoip.h"
+#import "zoiperVoip/zoiperVoip.h"
 
 #endif /* BridgingHeader_h */
