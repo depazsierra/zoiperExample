@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0EF4BA1D2EEBAD006DC247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0EF4B91D2EEBAD006DC247 /* AppDelegate.swift */; };
+		BF0EF4BC1D2EEBAD006DC247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0EF4BB1D2EEBAD006DC247 /* ViewController.swift */; };
+		BF0EF4BF1D2EEBAD006DC247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0EF4BD1D2EEBAD006DC247 /* Main.storyboard */; };
+		BF0EF4C11D2EEBAD006DC247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0EF4C01D2EEBAD006DC247 /* Assets.xcassets */; };
+		BF0EF4C41D2EEBAD006DC247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0EF4C21D2EEBAD006DC247 /* LaunchScreen.storyboard */; };
+		BF0EF4D91D2EEFE0006DC247 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0EF4D81D2EEFE0006DC247 /* libstdc++.6.0.9.tbd */; };
+		BF0EF4DB1D2EF012006DC247 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0EF4DA1D2EF012006DC247 /* libresolv.9.tbd */; };
+		BF0EF4E11D2EF053006DC247 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0EF4E01D2EF053006DC247 /* AudioToolbox.framework */; };
+		BF2862EE1E9BEFA80093E7CF /* libzoiperVoip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2862ED1E9BEFA80093E7CF /* libzoiperVoip.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF0EF4B61D2EEBAD006DC247 /* ZoiperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoiperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0EF4B91D2EEBAD006DC247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF0EF4BB1D2EEBAD006DC247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF0EF4BE1D2EEBAD006DC247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0EF4C01D2EEBAD006DC247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0EF4C31D2EEBAD006DC247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF0EF4C51D2EEBAD006DC247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0EF4D71D2EEEE2006DC247 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		BF0EF4D81D2EEFE0006DC247 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		BF0EF4DA1D2EF012006DC247 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		BF0EF4E01D2EF053006DC247 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BF2862ED1E9BEFA80093E7CF /* libzoiperVoip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzoiperVoip.a; path = "../../../../../Library/Developer/Xcode/DerivedData/zopierWorkspace-bizftmxvjkgjkqazushpbslnbdah/Build/Products/Debug-iphoneos/libzoiperVoip.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0EF4B31D2EEBAD006DC247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2862EE1E9BEFA80093E7CF /* libzoiperVoip.a in Frameworks */,
+				BF0EF4E11D2EF053006DC247 /* AudioToolbox.framework in Frameworks */,
+				BF0EF4DB1D2EF012006DC247 /* libresolv.9.tbd in Frameworks */,
+				BF0EF4D91D2EEFE0006DC247 /* libstdc++.6.0.9.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0EF4AD1D2EEBAD006DC247 = {
+			isa = PBXGroup;
+			children = (
+				BF0EF4E01D2EF053006DC247 /* AudioToolbox.framework */,
+				BF0EF4B81D2EEBAD006DC247 /* ZoiperExample */,
+				BF0EF4B71D2EEBAD006DC247 /* Products */,
+				BF2862E71E9BED210093E7CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0EF4B71D2EEBAD006DC247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0EF4B61D2EEBAD006DC247 /* ZoiperExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0EF4B81D2EEBAD006DC247 /* ZoiperExample */ = {
+			isa = PBXGroup;
+			children = (
+				BF0EF4CB1D2EEDB8006DC247 /* libs */,
+				BF0EF4B91D2EEBAD006DC247 /* AppDelegate.swift */,
+				BF0EF4BB1D2EEBAD006DC247 /* ViewController.swift */,
+				BF0EF4BD1D2EEBAD006DC247 /* Main.storyboard */,
+				BF0EF4C01D2EEBAD006DC247 /* Assets.xcassets */,
+				BF0EF4C21D2EEBAD006DC247 /* LaunchScreen.storyboard */,
+				BF0EF4D71D2EEEE2006DC247 /* BridgingHeader.h */,
+				BF0EF4C51D2EEBAD006DC247 /* Info.plist */,
+			);
+			path = ZoiperExample;
+			sourceTree = "<group>";
+		};
+		BF0EF4CB1D2EEDB8006DC247 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BF0EF4DA1D2EF012006DC247 /* libresolv.9.tbd */,
+				BF0EF4D81D2EEFE0006DC247 /* libstdc++.6.0.9.tbd */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		BF2862E71E9BED210093E7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2862ED1E9BEFA80093E7CF /* libzoiperVoip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0EF4B51D2EEBAD006DC247 /* ZoiperExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0EF4C81D2EEBAD006DC247 /* Build configuration list for PBXNativeTarget "ZoiperExample" */;
+			buildPhases = (
+				BF0EF4B21D2EEBAD006DC247 /* Sources */,
+				BF0EF4B31D2EEBAD006DC247 /* Frameworks */,
+				BF0EF4B41D2EEBAD006DC247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoiperExample;
+			productName = ZoiperExample;
+			productReference = BF0EF4B61D2EEBAD006DC247 /* ZoiperExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0EF4AE1D2EEBAD006DC247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = depa;
+				TargetAttributes = {
+					BF0EF4B51D2EEBAD006DC247 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WX5GBMYBW5;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = BF0EF4B11D2EEBAD006DC247 /* Build configuration list for PBXProject "ZoiperExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0EF4AD1D2EEBAD006DC247;
+			productRefGroup = BF0EF4B71D2EEBAD006DC247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0EF4B51D2EEBAD006DC247 /* ZoiperExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0EF4B41D2EEBAD006DC247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0EF4C41D2EEBAD006DC247 /* LaunchScreen.storyboard in Resources */,
+				BF0EF4C11D2EEBAD006DC247 /* Assets.xcassets in Resources */,
+				BF0EF4BF1D2EEBAD006DC247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0EF4B21D2EEBAD006DC247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0EF4BC1D2EEBAD006DC247 /* ViewController.swift in Sources */,
+				BF0EF4BA1D2EEBAD006DC247 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF0EF4BD1D2EEBAD006DC247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0EF4BE1D2EEBAD006DC247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0EF4C21D2EEBAD006DC247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0EF4C31D2EEBAD006DC247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF0EF4C61D2EEBAD006DC247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF0EF4C71D2EEBAD006DC247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF0EF4C91D2EEBAD006DC247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WX5GBMYBW5;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZoiperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZoiperExample/lib",
+					"$(PROJECT_DIR)/ZoiperExample/libs/zoiper",
+					"$(PROJECT_DIR)/ZoiperExample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depa.ZoiperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ZoiperExample/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF0EF4CA1D2EEBAD006DC247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WX5GBMYBW5;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZoiperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZoiperExample/lib",
+					"$(PROJECT_DIR)/ZoiperExample/libs/zoiper",
+					"$(PROJECT_DIR)/ZoiperExample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = depa.ZoiperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ZoiperExample/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0EF4B11D2EEBAD006DC247 /* Build configuration list for PBXProject "ZoiperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0EF4C61D2EEBAD006DC247 /* Debug */,
+				BF0EF4C71D2EEBAD006DC247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0EF4C81D2EEBAD006DC247 /* Build configuration list for PBXNativeTarget "ZoiperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0EF4C91D2EEBAD006DC247 /* Debug */,
+				BF0EF4CA1D2EEBAD006DC247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0EF4AE1D2EEBAD006DC247 /* Project object */;
+}

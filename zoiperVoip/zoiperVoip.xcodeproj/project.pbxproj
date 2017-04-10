@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF8AB3D01D2C0B1E00BB6515 /* ZoiperVoip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF8AB3CF1D2C0B1E00BB6515 /* ZoiperVoip.h */; };
+		BF8AB3D21D2C0B1E00BB6515 /* ZoiperVoip.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB3D11D2C0B1E00BB6515 /* ZoiperVoip.m */; };
+		BF8AB3E01D2C0BFE00BB6515 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8AB3D91D2C0BFE00BB6515 /* libcrypto.a */; };
+		BF8AB3E11D2C0BFE00BB6515 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8AB3DA1D2C0BFE00BB6515 /* libssl.a */; };
+		BF8AB3E21D2C0BFE00BB6515 /* libsipwrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8AB3DB1D2C0BFE00BB6515 /* libsipwrapper.a */; };
+		BF8AB3E51D2C0C1B00BB6515 /* ZSDKLibControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB3E41D2C0C1B00BB6515 /* ZSDKLibControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF8AB3CA1D2C0B1E00BB6515 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BF8AB3D01D2C0B1E00BB6515 /* ZoiperVoip.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF8AB3CC1D2C0B1E00BB6515 /* libzoiperVoip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzoiperVoip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8AB3CF1D2C0B1E00BB6515 /* ZoiperVoip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoiperVoip.h; sourceTree = "<group>"; };
+		BF8AB3D11D2C0B1E00BB6515 /* ZoiperVoip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoiperVoip.m; sourceTree = "<group>"; };
+		BF8AB3D91D2C0BFE00BB6515 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = libsipwrapper/libcrypto.a; sourceTree = "<group>"; };
+		BF8AB3DA1D2C0BFE00BB6515 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = libsipwrapper/libssl.a; sourceTree = "<group>"; };
+		BF8AB3DB1D2C0BFE00BB6515 /* libsipwrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsipwrapper.a; path = libsipwrapper/libsipwrapper.a; sourceTree = "<group>"; };
+		BF8AB3DD1D2C0BFE00BB6515 /* wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
+		BF8AB3DE1D2C0BFE00BB6515 /* wrapper_cbk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrapper_cbk.h; sourceTree = "<group>"; };
+		BF8AB3DF1D2C0BFE00BB6515 /* wrapper_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrapper_defs.h; sourceTree = "<group>"; };
+		BF8AB3E31D2C0C1B00BB6515 /* ZSDKLibControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDKLibControl.h; sourceTree = "<group>"; };
+		BF8AB3E41D2C0C1B00BB6515 /* ZSDKLibControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDKLibControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8AB3C91D2C0B1E00BB6515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8AB3E11D2C0BFE00BB6515 /* libssl.a in Frameworks */,
+				BF8AB3E21D2C0BFE00BB6515 /* libsipwrapper.a in Frameworks */,
+				BF8AB3E01D2C0BFE00BB6515 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF8AB3C31D2C0B1E00BB6515 = {
+			isa = PBXGroup;
+			children = (
+				BF8AB3CE1D2C0B1E00BB6515 /* zoiperVoip */,
+				BF8AB3CD1D2C0B1E00BB6515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8AB3CD1D2C0B1E00BB6515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8AB3CC1D2C0B1E00BB6515 /* libzoiperVoip.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8AB3CE1D2C0B1E00BB6515 /* zoiperVoip */ = {
+			isa = PBXGroup;
+			children = (
+				BF8AB3D81D2C0BBA00BB6515 /* libsipwrapper */,
+				BF8AB3CF1D2C0B1E00BB6515 /* ZoiperVoip.h */,
+				BF8AB3D11D2C0B1E00BB6515 /* ZoiperVoip.m */,
+				BF8AB3E31D2C0C1B00BB6515 /* ZSDKLibControl.h */,
+				BF8AB3E41D2C0C1B00BB6515 /* ZSDKLibControl.m */,
+			);
+			path = zoiperVoip;
+			sourceTree = "<group>";
+		};
+		BF8AB3D81D2C0BBA00BB6515 /* libsipwrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BF8AB3D91D2C0BFE00BB6515 /* libcrypto.a */,
+				BF8AB3DA1D2C0BFE00BB6515 /* libssl.a */,
+				BF8AB3DB1D2C0BFE00BB6515 /* libsipwrapper.a */,
+				BF8AB3DC1D2C0BFE00BB6515 /* include */,
+			);
+			name = libsipwrapper;
+			sourceTree = "<group>";
+		};
+		BF8AB3DC1D2C0BFE00BB6515 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BF8AB3DD1D2C0BFE00BB6515 /* wrapper.h */,
+				BF8AB3DE1D2C0BFE00BB6515 /* wrapper_cbk.h */,
+				BF8AB3DF1D2C0BFE00BB6515 /* wrapper_defs.h */,
+			);
+			name = include;
+			path = libsipwrapper/include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8AB3CB1D2C0B1E00BB6515 /* zoiperVoip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8AB3D51D2C0B1E00BB6515 /* Build configuration list for PBXNativeTarget "zoiperVoip" */;
+			buildPhases = (
+				BF8AB3C81D2C0B1E00BB6515 /* Sources */,
+				BF8AB3C91D2C0B1E00BB6515 /* Frameworks */,
+				BF8AB3CA1D2C0B1E00BB6515 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zoiperVoip;
+			productName = zoiperVoip;
+			productReference = BF8AB3CC1D2C0B1E00BB6515 /* libzoiperVoip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8AB3C41D2C0B1E00BB6515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sirena;
+				TargetAttributes = {
+					BF8AB3CB1D2C0B1E00BB6515 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BF8AB3C71D2C0B1E00BB6515 /* Build configuration list for PBXProject "zoiperVoip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF8AB3C31D2C0B1E00BB6515;
+			productRefGroup = BF8AB3CD1D2C0B1E00BB6515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8AB3CB1D2C0B1E00BB6515 /* zoiperVoip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8AB3C81D2C0B1E00BB6515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8AB3D21D2C0B1E00BB6515 /* ZoiperVoip.m in Sources */,
+				BF8AB3E51D2C0C1B00BB6515 /* ZSDKLibControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF8AB3D31D2C0B1E00BB6515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF8AB3D41D2C0B1E00BB6515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8AB3D61D2C0B1E00BB6515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zoiperVoip/libsipwrapper",
+				);
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-liconv",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF8AB3D71D2C0B1E00BB6515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zoiperVoip/libsipwrapper",
+				);
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-liconv",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8AB3C71D2C0B1E00BB6515 /* Build configuration list for PBXProject "zoiperVoip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8AB3D31D2C0B1E00BB6515 /* Debug */,
+				BF8AB3D41D2C0B1E00BB6515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8AB3D51D2C0B1E00BB6515 /* Build configuration list for PBXNativeTarget "zoiperVoip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8AB3D61D2C0B1E00BB6515 /* Debug */,
+				BF8AB3D71D2C0B1E00BB6515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8AB3C41D2C0B1E00BB6515 /* Project object */;
+}

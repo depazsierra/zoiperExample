@@ -1,0 +1,2 @@
+libsipwrapper.a filter=lfs diff=lfs merge=lfs -text
+zoiperVoip/zoiperVoip/libsipwrapper/libsipwrapper.a filter=lfs diff=lfs merge=lfs -text
